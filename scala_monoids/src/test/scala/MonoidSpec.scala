@@ -7,7 +7,7 @@ import com.abstract_algebra.test.MonoidLaws._
 
 class MonoidSpec extends FunSpec with Matchers {
   describe("Monoid") {
-    it("has associative binary concatination") {
+    it("has associative binary concatination and a two-sided identity") {
       check(monoidProp[Int])
     }
   }

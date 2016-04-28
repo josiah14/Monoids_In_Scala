@@ -1,8 +1,13 @@
 module Monoid (
-
+    Magma(..)
+  , Semigroup(..)
+  , Identity(..)
+  , Monoid(..)
+  , Sum(..)
 ) where
 
-import Magma(Sum)
+import Prelude hiding (Monoid)
+import Magma
 import Semigroup
 import Identity
 

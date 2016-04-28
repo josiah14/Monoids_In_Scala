@@ -20,4 +20,5 @@ cabal.sandbox.config
 *.hp
 *.eventlog
 .stack-work/
-
+*.css
+rtf
